@@ -112,7 +112,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         :install_path => "/home/vagrant/.rbenv",
         :env_file => "/home/vagrant/.bash_profile",
         :ruby_built_install_path => "/home/vagrant/.rbenv/plugins/ruby-build",
-        :ruby_version => "1.9.3-p448",
+        :ruby_version => "1.9.3-p448",  # Please change this version you needed
         # In the case of centos and ruby 1.9.3 or 2.0.0, ruby-build fails because of ruby core bugs.
         # So if you see the build error on the case , please turn the flag below as true.
         # In other case, please turn it as false.
