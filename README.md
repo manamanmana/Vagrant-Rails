@@ -20,14 +20,14 @@ __Typical way to use this__
 
 When you make new rails env and project.
 
-1. Clone this repo.
+* Clone this repo.
 
 ```
 cd somewhere
 git clone https://github.com/manamanmana/Vagrant-Rails.git
 ```
 
-2. Move Vagrantfile and chef-repo to project directory
+* Move Vagrantfile and chef-repo to project directory
 
 ```
 mkdir project_name
@@ -35,7 +35,7 @@ mv somewhere/Vagrantfile project_name/
 mv somewhere/chef-repo project_name/
 ```
 
-3. Launch Virtual box CentOS
+* Launch Virtual box CentOS
 
 ```
 vagrant box add centos64 /Users/manabu/Downloads/centos6_64.box
@@ -50,7 +50,7 @@ vagrant provision
 # This taks a bit long time...
 ```
 
-4. Login to Virtuan box CentOS
+* Login to Virtuan box CentOS
 
 ```
 vagrant ssh
