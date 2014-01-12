@@ -1,0 +1,1 @@
+default[:rbenv][:ruby_built_repo_url] = "https://github.com/sstephenson/ruby-build.git"
